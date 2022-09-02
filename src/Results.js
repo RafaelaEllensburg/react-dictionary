@@ -4,7 +4,7 @@ import Phonetics from "./Phonetics";
 import Synonyms from "./Synonyms";
 import "./Results.css";
 
-export default function Result(props) {
+export default function Results(props) {
   console.log(props.results);
   if (props.results) {
     return (
