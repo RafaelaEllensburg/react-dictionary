@@ -65,7 +65,7 @@ export default function Dictionary(props) {
                   className="form-control border-right-0 border border-light"
                   autoFocus={true}
                   onChange={handleKeywordChange}
-                  placeholder="Which food or drink do you want to look up?"
+                  placeholder="Find food for thought"
                   defaultValue={props.defaultKeyword}
                 />
               </span>

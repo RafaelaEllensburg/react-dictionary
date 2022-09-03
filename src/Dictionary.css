@@ -13,6 +13,16 @@
   text-align: center;
 }
 
+.Dictionary img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.Dictionary .Dictionary-keyvisual {
+  max-height: 200px;
+}
+
 .Dictionary input {
   padding: 16px 24px 16px 20px;
   border-radius: 32px;
