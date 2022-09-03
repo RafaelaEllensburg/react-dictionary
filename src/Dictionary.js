@@ -3,6 +3,7 @@ import axios from "axios";
 import Results from "./Results";
 import "./Dictionary.css";
 import Photos from "./Photos";
+import keyvisual from "./undraw_breakfast_psiw.png";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
@@ -48,6 +49,11 @@ export default function Dictionary(props) {
       <div className="Dictionary">
         <section>
           <h1>The Foodie Dictionary</h1>
+          <img
+            src={keyvisual}
+            className="Dictionary-keyvisual img-fluid"
+            alt="food-illustration"
+          />
           <form onSubmit={handleSubmit}>
             <div className="input-group-prepend">
               <span className="input-group">
