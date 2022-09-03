@@ -13,7 +13,22 @@ export default function App() {
           <Dictionary defaultKeyword="cheese" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Rafaela</small>
+          This project was coded by{" "}
+          <a
+            href="https://www.rafaelaellensburg.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Rafaela Ellensburg
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/RafaelaEllensburg/react-dictionary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>
         </footer>
       </div>
     </div>
